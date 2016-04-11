@@ -1,4 +1,4 @@
-#include "life.h"
+#include "clife.h"
 
 #include <boost/range/irange.hpp>
 

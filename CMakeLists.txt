@@ -3,6 +3,7 @@ project(cexperiments)
 
 add_subdirectory(clife)
 add_subdirectory(cneuro)
+add_subdirectory(cevolution)
 
 
 

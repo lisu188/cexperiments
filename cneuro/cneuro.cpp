@@ -6,8 +6,5 @@ int main() {
     neuro->add_teacher({1, 0}, {1});
     neuro->add_teacher({0, 1}, {1});
     neuro->add_teacher({0, 0}, {0});
-    while (neuro->erms() > 0.0001) {
-        neuro->teach(1000);
-    }
-    std::cout << neuro->erms() << std::endl;
+    std::cout << neuro->teach(0.001,1000000);
 }
